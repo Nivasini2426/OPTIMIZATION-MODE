@@ -36,69 +36,6 @@ Constraints: Labor hours and raw material limits.
 2. Problem Formulation
 The factory produces two types of products (A and B), each requiring different amounts of labor and raw materials. The company aims to determine the best combination of products to produce to maximize total profit while ensuring that resource limits are not exceeded.
 
-Objective Function (Maximization)
-Maximize
-40
-𝑥
-𝐴
-+
-30
-𝑥
-𝐵
-Maximize40x 
-A
-​
- +30x 
-B
-​
- 
-Product A contributes $40 per unit to profit.
-Product B contributes $30 per unit to profit.
-The goal is to maximize the total profit.
-Constraints
-Labor Hours Constraint:
-
-2
-𝑥
-𝐴
-+
-1
-𝑥
-𝐵
-≤
-100
-2x 
-A
-​
- +1x 
-B
-​
- ≤100
-Each unit of Product A requires 2 hours of labor.
-Each unit of Product B requires 1 hour of labor.
-The total available labor is 100 hours.
-Raw Materials Constraint:
-
-3
-𝑥
-𝐴
-+
-2
-𝑥
-𝐵
-≤
-120
-3x 
-A
-​
- +2x 
-B
-​
- ≤120
-Each unit of Product A requires 3 units of raw materials.
-Each unit of Product B requires 2 units of raw materials.
-The total available raw materials are 120 units.
-Additionally, we ensure that x_A and x_B are non-negative (i.e., the factory cannot produce a negative number of products).
 
 3. Implementing the Optimization Problem in Python
 The problem is solved using PuLP, a Python library for linear programming.
@@ -148,4 +85,6 @@ Optimization results help businesses maximize profits and efficiently allocate r
 This approach can be extended to other optimization problems, such as supply chain management, workforce scheduling, inventory management, and financial planning.
 
 *OUTPUT*:
+
+![Image](https://github.com/user-attachments/assets/1e0ec73b-63d9-4eb7-8804-0367fc34bd7d)
 
